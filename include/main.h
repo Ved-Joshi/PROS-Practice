@@ -72,10 +72,10 @@ void opcontrol(void);
 #endif
 
 #ifdef __cplusplus
-#include "subsystemheaders/drive.hpp"
-#include "subsystemheaders/intake.hpp"
-#include "subsystemheaders/lift.hpp"
-#include "subsystemheaders/globals.hpp"
+#include "subsystemHeaders/drive.hpp"
+#include "subsystemHeaders/intake.hpp"
+#include "subsystemHeaders/lift.hpp"
+#include "subsystemHeaders/globals.hpp"
 /**
  * You can add C++-only headers here
  */
