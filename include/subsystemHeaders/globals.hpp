@@ -1,7 +1,5 @@
 #include "main.h"
 
-//MOTORS
-
 extern pros::Motor lift;
 extern pros::Motor intakeLeft;
 extern pros::Motor intakeRight;
@@ -10,10 +8,4 @@ extern pros::Motor driveFrontRight;
 extern pros::Motor driveBackLeft;
 extern pros::Motor driveBackRight;
 
-//CONTROLLER
-
-extern pros::Controller controller;
-
-//MISCELLANEOUS
-
-//SENSORS
+extern pros::Controller controller(pros::E_CONTROLLER_MASTER);
