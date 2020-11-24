@@ -77,6 +77,7 @@ void opcontrol(void);
 #include "subsystemHeaders/globals.hpp"
 #include "subsystemHeaders/lift.hpp"
 #include "subsystemHeaders/intake.hpp"
+#include "subsystemHeaders/auton.hpp"
 /**
  * You can add C++-only headers here
  */

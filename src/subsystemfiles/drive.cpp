@@ -9,6 +9,13 @@ void setDrive(int left, int right) {
   driveFrontRight = right;
 }
 
+void resetDriveEncoders() {
+  driveBackLeft.tare_position();
+  driveBackRight.tare_position();
+  driveFrontLeft.tare_position();
+  driveFrontRight.tare_position();
+}
+
 //Driver Control Functions
 
 void setDriveMotors() {
@@ -22,3 +29,15 @@ void setDriveMotors() {
   }
   setDrive(leftJoystick, rightJoystick);
 }
+
+//AUTON FUNCTIONS
+
+void translate(int units, int voltage) {
+  //reset motor encoders
+  resetEncoders();
+  //drive forward until units are reached
+
+  //brief brake
+
+  //set drive back to neutral
+};
