@@ -9,3 +9,6 @@ extern pros::Motor driveBackLeft;
 extern pros::Motor driveBackRight;
 
 extern pros::Controller controller(pros::E_CONTROLLER_MASTER);
+//ADI_LEGACY_GYRO
+
+extern pros::ADIGyro gyro;

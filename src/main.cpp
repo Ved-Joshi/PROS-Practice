@@ -30,6 +30,9 @@ void initialize() {
 	lift.set_brake_mode(pros::E_MOTOR_BRAKE_HOLD);
 	intakeLeft.set_brake_mode(pros::E_MOTOR_BRAKE_COAST);
 	intakeRight.set_brake_mode(pros::E_MOTOR_BRAKE_COAST);
+
+	pros::ADIGyro gyro('B', 0.91);
+	pros::delay(2000);
 }
 
 /**
@@ -63,7 +66,9 @@ void competition_initialize() {}
  */
 
 void autonomous() {
-	redLeftCorner();
+	redLeftCorner() {
+		translate(-500, 100);
+	};
 	//redRightCorner();
 	//blueLeftCorner();
 	//blueRightCorner();
