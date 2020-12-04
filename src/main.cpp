@@ -66,9 +66,7 @@ void competition_initialize() {}
  */
 
 void autonomous() {
-	redLeftCorner() {
-		translate(-500, 100);
-	};
+	redLeftCorner();
 	//redRightCorner();
 	//blueLeftCorner();
 	//blueRightCorner();

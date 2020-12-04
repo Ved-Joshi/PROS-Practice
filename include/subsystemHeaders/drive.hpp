@@ -6,3 +6,4 @@ double avgDriveEncoderValue();
 
 void resetDriveEncoders();
 void translate(int units, int voltage);
+void rotate(int degrees, int voltage);
